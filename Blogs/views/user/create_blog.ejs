@@ -1,0 +1,19 @@
+<html lang="en">
+    <%- include('../partials/after_login_head')%>
+<body>
+    <div id="design">Create-Blog!</div>
+    <div id="form_div">
+    <button id="nav">+</button>
+    <%- include('../partials/nav_tab_after_login')%>
+    <form method="post" action="Create_blog" id="form">
+        <label>Title: </label>
+        <input type="text" name="Title" placeholder="Title" required >
+        <br>
+        <label>Body:</label>
+        <input name="Body" type="" placeholder="Body" required>
+        <submit><button id="Create-Blog_button">Submit</button></submit>
+    </form>
+    </div>
+</body>
+    <%- include('../partials/foot')%>
+</html>

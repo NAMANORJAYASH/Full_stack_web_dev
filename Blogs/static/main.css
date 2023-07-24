@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+}
+
+footer{
+    position: fixed;
+    top:95%;
+    left:43.5%;
+}
+
+a:visited{
+    text-decoration-line: none;
+    color:none
+}
+
+a:link{
+    text-decoration-line: none
+}
+
+header{
+    font-size: 7vh;
+    color: grey;
+    position: relative;
+    left: 4vw;
+    text-decoration-line: none;
+}
+
+#nav{
+    position: absolute;
+    left: 90vw;
+    top:2.5vh;
+    width: 4vw;
+    height: 6vh;
+    font-size: 5vh;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+
+
+header a:visited{
+    font-size: 7vh;
+    color: grey;
+    position: relative;
+    left: 4vw;
+    text-decoration-line: none;
+}
+
+#nav_bar{
+    position: absolute;
+    color: black;
+    left:75vw;
+    background-color: white;
+    text-align: left;
+    width: 13vw;
+    height: 38vh;
+    font-size: 3.5vh;
+    padding: 7vh;
+    display: none;
+    border-radius: 10px;
+}
+
+#form_div{
+    text-align: center;
+    font-size: 4vh;
+    background-color: black;
+    color: grey;
+    height: 20vh;
+    top:30vh;
+    padding-top: 3vh;
+}
+
+#design{
+    text-align: center;
+    font-size: 5vh;
+    color: whitesmoke;
+    background-color: green;
+    height: 10vh;
+    padding-top: 7vh;
+}
+
+#warning{
+    color: red;
+    font-size: small;
+}
+
+#user_blogs{
+    color: grey;
+}
+
+#blogs{
+    color: grey;
+}

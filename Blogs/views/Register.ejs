@@ -1,0 +1,21 @@
+<html>
+    <%- include('partials/head')%>
+<body>
+    <div id="design">Register!</div>
+    <button id="nav">+</button>
+    <%- include('partials/nav_tab')%>
+    <div id="form_div">
+    <form method="post" action="Register">
+        <label>Username(must be unique): </label>
+        <input type="text" required name="Username">
+                                <br>
+        <label>Password:</label>
+        <input name="Password" required type="password">
+        <% if(typeof warning!=='undefined'){ %>
+        <h1 id="warning"><%= warning%></h1>
+        <% } %>
+        <submit><button>Submit</button></submit>
+    </form>
+    </div> 
+</body>
+</html>

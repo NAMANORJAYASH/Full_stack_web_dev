@@ -1,0 +1,22 @@
+<html>
+    <%- include('partials/login_head')%>
+<body>
+    <div id="design">Login!</div>
+    <div id="form_div">
+    <button id="nav">+</button>
+    <%- include('partials/nav_tab')%>
+    <form method="post" action="Login" id="form">
+        <label>Username: </label>
+        <input type="text" name="Username" placeholder="Username" required>
+        <br>
+        <label>Password:</label>
+        <input name="Password" type="password" placeholder="Password" required>
+        <% if(typeof warning!=='undefined'){ %>
+        <h1 id="warning"><%= warning%></h1>
+        <% } %>
+        <submit><button id="login_button">Submit</button></submit>
+    </form>
+    </div>
+    
+</body>
+</html>

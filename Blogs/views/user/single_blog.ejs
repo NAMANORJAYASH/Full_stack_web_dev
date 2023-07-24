@@ -1,0 +1,16 @@
+<html>
+    <%- include('../partials/after_login_head')%>
+<body>
+    <header>
+        <a href="/">Blogs</a>
+    </header>
+    <button id="nav">+</button>
+    <hr>
+    <%- include('../partials/nav_tab_after_login')%>
+    <div id="blogs">
+        <h1><%= Blog[0].title%></h1>
+        <h6><%= Blog[0].body%></h6>
+    </div>
+</body>
+    <%- include('../partials/foot')%>
+</html>
